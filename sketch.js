@@ -11,6 +11,6 @@ function draw() {
   // Displays the image at point (0, height/2) at half size
   image(img, 0, height/2, img.width/2, img.height/2);
 	
-	// fill(mouseX,mouseY,100);
-	//ellipse(mouseX,mouseY, 100,100);
+	 fill(mouseX,mouseY,100);
+	ellipse(mouseX,mouseY, 100,100);
 }
